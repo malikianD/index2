@@ -1,0 +1,136 @@
+/*   Derek Malikian
+     June 18, 2017
+     CSC 4370 Web Programming
+     File name: lemon.css stylesheet for pie.html
+     Account: dmalikian1
+*/
+
+body {
+    background-color: black;
+}
+
+div.header {
+    background-color: saddlebrown;
+    color: white;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 25px;
+    border-style: solid;
+    border-color: yellow;
+}
+
+div.nav {
+    background-color: yellow;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    border-style: solid;
+    border-color: saddlebrown;
+}
+
+img.pie {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    width: 99%;
+    height: 80%;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+}
+
+div.body01 {
+    background-color:burlywood;
+    border-radius: 15px;
+    padding: 5px
+}
+
+h1 {
+    font-family: monospace;
+}
+
+div.prep {
+    background-color: saddlebrown;  
+    border-radius: 15px;
+    padding: 5px;
+    padding-left: 20px;
+    color: white;
+    font-family: monospace;
+    font-size: 25px;
+    margin-bottom: 5px;  
+    margin-top: 5px;
+    border-style: solid;
+    border-color: yellow;
+}
+
+div.ing {
+    background-color: bisque;
+    border-radius: 15px;
+    padding: 10px;
+    font-family: monospace;
+    font-size: 20px;   
+    border-style: solid;
+    border-color: black;
+}
+
+div.dir {
+    background-color: yellow;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 5px;
+    font-family: monospace;
+    font-size: 20px;
+    border-style: solid;
+    border-color: saddlebrown;
+}
+
+span.navi {
+    padding: 15px;
+    border-radius: 15px;
+    background-color: bisque;
+    border-style: solid;
+    border-width: 5px;
+    border-color: saddlebrown;
+}
+
+a {
+    color: saddlebrown;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+ul.section02 {
+    list-style-type: none;
+    margin: 0px;
+    padding: 5px;
+    overflow: hidden;
+    background-color: yellow;
+    border-radius: 15px;
+}
+
+li.inline02 {
+    float: left;
+    color: white;
+    display: inline;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    width: 350px;
+    font-family: monospace;
+    border-radius: 15px;
+    margin: 4px;
+    border-style: solid;
+    border-color: saddlebrown;
+    background-color: bisque;
+    
+}
+
+a.one {
+    color: saddlebrown;
+    text-decoration: none;
+    font-size: 30px;    
+}

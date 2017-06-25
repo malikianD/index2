@@ -1,0 +1,88 @@
+/*   Derek Malikian
+     June 18, 2017
+     CSC 4370 Web Programming
+     File name: front.css stylesheet for recipe.html
+     Account: dmalikian1
+*/
+
+
+body {
+    background-color: #FFCC00;
+    font-family: Georgia;
+}
+
+h1, h2{
+    background-color: #F0F0F0;
+    color: #A4A400;
+    text-align: center;
+    font-family: Futura;
+    letter-spacing: 4px; 
+}
+
+li.inline01 {
+    display: inline;
+    border-right: 15px solid purple;
+    background-color: #A4A400;
+    padding-right: 20px;
+    padding: 10px;
+    width: 60px;  
+}
+
+ul.section01 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
+    margin-left: 30px;
+}
+
+ul.bullet {
+    list-style-image: url(fork.png);   
+}
+
+div.table01  {
+    background-color: #FFFFFF;
+    text-align: center;
+    width: 608px    
+}
+
+div.table02 {
+    background-color: #FFFFFF;
+    text-align: center;
+    width: 447px;
+}
+
+table {
+    margin-top: 20px;
+}
+
+td.first {
+    background-color: #003366;
+    color:white;
+    padding: 5px;
+}
+
+td.second {
+    background-color: #CC9933;
+    color: white;
+    text-align: left;
+    padding: 5px;
+}
+
+h4 {
+    color: #A4A400;
+    font-family: Futura;
+    letter-spacing: 4px;
+}
+
+a.one {
+    color: purple;
+    text-decoration: none;
+}
+
+a.two {
+    color: purple;
+}
+
+span.one {
+    font-weight: bold; 
+}

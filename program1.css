@@ -1,0 +1,163 @@
+/*   Derek Malikian
+     June 18, 2017
+     CSC 4370 Web Programming
+     File name: program1.css stylesheet for program1.html
+     Account: dmalikian1
+*/
+
+
+body {
+    background-color: black;
+}
+
+a {
+    color: black;
+    text-decoration: none;  
+}
+
+div.head01 {
+    background-image: url(food01.jpg);
+    background-size: 100%;
+    margin-bottom: 5px;
+    padding: 30px;
+    color: white;
+    font-size: 60px;
+    font-family: monospace;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: white;
+}
+
+footer.foot01 {
+    background-color: mediumpurple;
+    color: white;
+    font-family: monospace;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 5px;
+    border-style: solid;
+    border-color: white;
+}
+
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    overflow: hidden;
+    background-color: orange;
+    border-radius: 15px;      
+}
+
+li {
+    float: left;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 15px;
+    font-size: 30px;
+    width: 383px;
+    font-family: monospace;
+    border-right: 2px solid white;  
+    border-radius: 15px;
+    margin: 4px;
+    border-style: solid;
+    border-color: black;
+}
+
+#lemon {
+    background-image: url(lemon_2.png);
+    color: white;
+    background-size: 100%;    
+}
+
+#greek {
+    background-image: url(greek2.png);
+    color: white;
+    background-size: 100%;
+}
+
+#home {
+    background-image: url(food01.jpg);
+    color: white;
+    background-size: 100%;
+}
+
+div.foot01 {
+    background-color: black;
+    font-family: monospace;
+    color: white;   
+}
+
+div.body01 {
+    background-color: whitesmoke;
+    color: black;
+    margin-top: 5px;
+    padding: 5px;
+    height: auto;
+    font-family: monospace;
+    font-size: 25px;
+    border-radius: 15px;
+   
+}
+
+div.para01 {
+    background-color: cornflowerblue;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    text-indent: 50px;
+    font-size: 20px;
+    height: auto;   
+}
+div.greek01 {
+    background-color: darkolivegreen;
+    overflow: auto;
+    border-radius: 15px;
+    height: auto;
+    padding-left: 10px;
+    border-style: solid;
+    border-color: white;
+}
+
+div.lemon01 {
+    
+    background-color: rosybrown;
+    overflow: auto;
+    border-radius: 15px;
+    height: auto;
+    padding-left: 10px;
+    margin-top: 10px;
+    border-style: solid;
+    border-color: white;
+}
+
+
+p.wide {
+    width: 60%;
+    font-size: 25px;
+    padding-top: 15px
+    
+    
+}
+
+img {
+    border-radius: 15px;
+    height: 350px;
+    width: 500px;
+    margin: 10px;
+    float: right;
+    border-style: solid;
+    border-color: white;
+    
+}
+
+h2 {
+    text-align: center;   
+}
+
+h3 {
+    font-family: monospace;
+    color: white;
+    font-size: 40px;   
+    text-align: center;
+}
